@@ -1,48 +1,29 @@
-# Language Translation Tool
+# 🎯 Task 4: Object Detection and Tracking using YOLOv8
 
-A simple Language Translation Tool built using Python Flask and Deep Translator.
+## 📌 Project Description
+This project is a real-time object detection and tracking system using YOLOv8 and OpenCV.  
+It detects objects from webcam/video feed and assigns tracking IDs to each detected object.
 
-## Features
+---
 
-- Translate text between multiple languages
-- Source Language Selection
-- Target Language Selection
-- Swap Languages
-- Copy Translated Text
-- Translation History
-- User-Friendly Interface
+## 🚀 Features
+- Real-time webcam video processing
+- Object detection using YOLOv8 (pretrained model)
+- Bounding box and label display
+- Object tracking with unique IDs
+- Live video output
 
-## Technologies Used
+---
 
+## 🛠️ Technologies Used
 - Python
-- Flask
-- Deep Translator
-- HTML
-- CSS
+- OpenCV
+- Ultralytics YOLOv8
+- FilterPy (for tracking support)
 
-## How to Run
+---
 
-1. Install the required libraries:
-
-```bash
-pip install -r requirements.txt
-```
-
-2. Run the application:
+## 📦 Installation
 
 ```bash
-python app.py
-```
-
-3. Open your browser and visit:
-
-```text
-http://127.0.0.1:5000
-```
-
-## Project Objective
-
-This project helps users translate text from one language to another using a simple and interactive web interface.
-
-
-
+pip install opencv-python ultralytics filterpy
