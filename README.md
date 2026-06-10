@@ -1,29 +1,48 @@
-# FAQ Chatbot
+# Language Translation Tool
 
-A simple FAQ Chatbot built using Python Flask and NLP techniques.
+A simple Language Translation Tool built using Python Flask and Deep Translator.
 
 ## Features
 
-- FAQ Question and Answer System
-- NLP Text Preprocessing
-- Similarity Matching using Cosine Similarity
-- Chat History
+- Translate text between multiple languages
+- Source Language Selection
+- Target Language Selection
+- Swap Languages
+- Copy Translated Text
+- Translation History
 - User-Friendly Interface
 
 ## Technologies Used
 
 - Python
 - Flask
-- Scikit-Learn
+- Deep Translator
 - HTML
 - CSS
 
 ## How to Run
 
-pip install -r requirements.txt
+1. Install the required libraries:
 
+```bash
+pip install -r requirements.txt
+```
+
+2. Run the application:
+
+```bash
 python app.py
+```
+
+3. Open your browser and visit:
+
+```text
+http://127.0.0.1:5000
+```
 
 ## Project Objective
 
-This project answers user questions by matching them with the most relevant FAQ using Natural Language Processing techniques.
+This project helps users translate text from one language to another using a simple and interactive web interface.
+
+
+
